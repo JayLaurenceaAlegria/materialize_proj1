@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<style>
+  
+</style>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Materialize Theme</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header  class="main-header-inner">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Quazzu</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">HOME </a>
+          </li>
+          <li>
+            <a href="solution.html">SOLUTIONS</a>
+          </li>
+          <li>
+            <a href="#signup-modal" class="modal-trigger active-link" >SIGN UP</a>
+          </li>
+          <li>
+              <a  class="btn purple modal-trigger" href="#login-modal">LOGIN</a>
+            </li>
+          <li>
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram">
+              </i>
+            </a>
+          </li>
+        </ul>
+        <!-- sidenav -->
+        <ul class="side-nav" id="mobile-nav">
+          <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+          <li>
+            <div class="divider">
+            </div>
+          </li>
+          <li>
+            <a href="index.html">
+            <i class="fa fa-home fa-2x grey-text text-darken-4"></i><span style="font-size: 20px"> Home</span>
+          </a>
+          </li>
+          <li>
+            <a href="solution.html">
+            <i class="fa fa-cog fa-2x grey-text text-darken-4"></i><span style="font-size: 20px"> Solutions</span>
+          </a>
+          </li>
+          <li>
+            <a href="signup.html">
+            <i class="fa fa-users fa-2x grey-text text-darken-4"></i><span style="font-size: 20px"> Sign Up</span>
+          </a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a href="#login-modal" class="btn purple modal-trigger"> Log in</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+  <div class="showcase container">
+    <div class="row">
+      <div class="col s12 m10 offset-m1 center">
+        <h5>Welcome to Quazzu</h5>
+        <h1>Create Account</h1> 
+    </div>
+  </div>
+  </header> 
+
+  <!-- Section signup -->
+<section class="section section-signup">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <h4>Get a free account</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsa ratione architecto numquam expedita accusantium eum provident nulla quas nesciunt distinctio assumenda nisi optio sunt, rem sed beatae quae repellat?</p>
+        <h4>Download the Free Software</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsa ratione architecto numquam expedita accusantium eum provident nulla quas nesciunt distinctio assumenda nisi optio sunt, rem sed beatae quae repellat?</p>
+        <h4>Push to the platform</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsa ratione architecto numquam expedita accusantium eum provident nulla quas nesciunt distinctio assumenda nisi optio sunt, rem sed beatae quae repellat?</p>
+      </div>
+      <div class="col s12 m6">
+        <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+          <form>
+            <div class="input-field">
+              <input type="text" id="first_name">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="last_name">
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" id="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="passport">
+              <label for="passport">Passport</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="company">
+              <label for="company">Company</label>
+            </div>
+              <select id="role">
+                <option disabled selected value="">Select Role</option>
+                <option value="professional">Professional Developer</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="student">Student</option>
+                <option value="manager">Manager</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="role">Role</label>
+              <input type="submit" value="signup" class="btn btn-large btn-extend">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="page-footer deep-purple lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="purplegrey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright deep-purple darken-1">
+      <div class="container">
+      © 2019 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- modal -->
+<div id="login-modal" class="modal">
+  <div class="modal-content">
+    <h4>Account Login</h4>
+    <p>Login to access your account dashboard</p>
+    <form>
+      <div class="input-field">
+        <input type="email" id="email">
+        <label for="email">Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="email">
+        <label for="email">Password</label>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close btn grey">
+      <i class="fa fa-sync"></i>  Reset Password
+    </a>
+    <a href="#!" class="modal-action modal-close btn purple">
+      <i class="fa fa-lock"></i>  Login
+    </a>
+  </div>
+</div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      $('.carousel.carousel-slider').carousel({
+        fullwith: true
+      });
+      $('.button-collapse').sideNav();
+      $('.modal').modal();
+      $('select').material_select();
+
+    });
+  </script>
+</body>
+
+</html>
